@@ -1,0 +1,15 @@
+#!/bin/bash
+echo ------------
+a=bb34
+echo "a=$a"
+b=${a/bb/1}
+echo "b=$b"
+let "b += 1"
+echo "b=$b"
+echo ------------
+echo $*
+echo $#
+echo $0,$1
+echo ${!#}
+echo ------------
+echo ------------
